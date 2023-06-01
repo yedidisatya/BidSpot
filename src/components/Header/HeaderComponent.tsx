@@ -1,14 +1,8 @@
-import React from "react";
+import React from 'react';
 import styles from './Header.module.scss';
 
 const Header: React.FC<EmptyObject> = () => {
+  return <div className={styles.header}>Hello Header</div>;
+};
 
-    return (
-        <div >
-            Header
-        </div>
-
-    )
-}
-
-export {Header};
+export { Header };
