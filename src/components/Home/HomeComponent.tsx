@@ -3,7 +3,7 @@ import './Home.module.scss';
 const Home: React.FC<EmptyObject> = () => {
 
     return (
-        <div>
+        <div className="home">
             Home
         </div>
     )
