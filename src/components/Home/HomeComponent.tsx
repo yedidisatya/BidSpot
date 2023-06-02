@@ -3,6 +3,7 @@ import styles from './Home.module.scss';
 import { Header } from '../Header';
 import { NavigationBar } from '../NavigationBar';
 import { HomePageBanner } from './HomePageBanner';
+import { Category } from './BasedOnCategory';
 
 const Home: React.FC<EmptyObject> = () => {
   return (
@@ -10,6 +11,7 @@ const Home: React.FC<EmptyObject> = () => {
       <Header />
       <NavigationBar />
       <HomePageBanner />
+      <Category />
     </div>
   );
 };
