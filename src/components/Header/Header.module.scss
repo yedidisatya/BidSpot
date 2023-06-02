@@ -1,0 +1,34 @@
+.topHeader {
+  border-bottom: solid 1px #ccc;
+  height: 80px;
+
+  .headerContainer {
+    max-width: 1248px;
+    margin: 0 auto !important;
+    .location {
+      margin: 0 10px 0 25px !important;
+    }
+
+    .mainSearch {
+      width: 22em;
+      position: relative;
+    }
+
+    .chatWithUs {
+      cursor: pointer;
+    }
+
+    .callUsAt {
+      padding-left: 20px !important;
+      border-left: solid 2px #f2f3f5;
+      text-align: left;
+      color: #ed264f;
+      font-weight: 700;
+    }
+
+    .smallText {
+      font-size: 10px;
+      font-weight: 300;
+    }
+  }
+}
