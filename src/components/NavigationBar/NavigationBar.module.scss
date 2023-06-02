@@ -1,0 +1,13 @@
+.mainNavigation {
+  margin: 12px !important;
+  .navItem {
+    p {
+      font-weight: 400;
+      cursor: pointer;
+    }
+    i {
+      margin: 3px 0 0 3px !important;
+      font-size: 20px;
+    }
+  }
+}
