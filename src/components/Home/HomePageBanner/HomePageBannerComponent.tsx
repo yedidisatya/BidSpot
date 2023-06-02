@@ -19,22 +19,15 @@ const HomePageBanner: React.FC<EmptyObject> = () => {
       <div>
         <img
           className={cn(styles.scrollImg, 'w-100')}
-          src="https://www.w3schools.com/bootstrap5/ny.jpg"
+          src="https://cdn1.acedms.com/photos/images/banner/OBV_1920x500_Homepage-Banner_30-May-2023.jpg.webp"
           alt="img1111"
         />
       </div>
       <div>
         <img
           className={cn(styles.scrollImg, 'w-100')}
-          src="https://www.w3schools.com/bootstrap5/chicago.jpg"
+          src="https://cdn1.acedms.com/photos/images/banner/wjgCJ-Ug.jpeg.webp"
           alt="img22221"
-        />
-      </div>
-      <div>
-        <img
-          className={cn(styles.scrollImg, 'w-100')}
-          src="https://www.w3schools.com/bootstrap5/la.jpg"
-          alt="img3333"
         />
       </div>
     </Slider>
