@@ -4,9 +4,11 @@ import styles from './AccountDetails.module.scss';
 
 const AccountDetails: React.FC<EmptyObject> = () => {
   return (
-    <div>
+    <div className={styles.accountDetails}>
       <span className={styles.smallText}>Hello, Sign in</span>
-      <p>Account &#9662;</p>
+      <p className={styles.accountText}>
+        Account <i className="fa fa-sort-desc"></i>
+      </p>
     </div>
   );
 };

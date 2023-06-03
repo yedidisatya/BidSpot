@@ -82,7 +82,7 @@ const Header: React.FC<EmptyObject> = () => {
               </div>
               <div className={styles.callUsAt}>
                 <span className={styles.smallText}>Call us at</span>
-                <p>8989-898-989</p>
+                <p className={styles.phoneNumber}>8989-898-989</p>
               </div>
             </div>
           </div>

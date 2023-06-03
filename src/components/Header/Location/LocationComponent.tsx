@@ -5,7 +5,10 @@ import styles from './Location.module.scss';
 const Location: React.FC<EmptyObject> = () => {
   return (
     <span className={styles.selectCity}>
-      Select City<span className={styles.downIcon}>&#9662;</span>
+      Select City
+      <span className={styles.downIcon}>
+        <i className="fa fa-sort-desc"></i>
+      </span>
     </span>
   );
 };
