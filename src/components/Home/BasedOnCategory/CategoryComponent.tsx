@@ -6,7 +6,7 @@ const Category: React.FC<EmptyObject> = () => {
   return (
     <div className={styles.categoryBased}>
       <div className="row">
-        <h2 className={cn(styles.categoryTitle, 'text-start my-5')}>Shop By Category</h2>
+        <h2 className={cn(styles.categoryTitle, 'text-middle my-5')}>Shop By Category</h2>
         <div className="row">
           <div className={cn(styles.categoryList, 'd-flex')}>
             <div className={cn(styles.categoryItem, 'mx-3')}>
