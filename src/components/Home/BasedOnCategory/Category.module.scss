@@ -1,6 +1,28 @@
 .categoryBased {
   margin-top: 30px !important;
-  img {
-    width: 160px;
+  max-width: 1248px;
+  margin: 0 auto !important;
+  .categoryTitle {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+  .categoryList {
+    .categoryItem {
+      img {
+        width: 130px;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: transform 0.2s ease-out;
+        &:hover {
+          transform: scale(1.03);
+          box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+        }
+      }
+      .categoryItemTitle {
+        font-weight: 500;
+        margin-top: 10px !important;
+      }
+    }
   }
 }

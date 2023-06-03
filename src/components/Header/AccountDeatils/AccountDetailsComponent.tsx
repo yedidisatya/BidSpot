@@ -7,7 +7,7 @@ const AccountDetails: React.FC<EmptyObject> = () => {
     <div className={styles.accountDetails}>
       <span className={styles.smallText}>Hello, Sign in</span>
       <p className={styles.accountText}>
-        Account <i className="fa fa-sort-desc"></i>
+        Account <i className="fa fa-angle-down"></i>
       </p>
     </div>
   );

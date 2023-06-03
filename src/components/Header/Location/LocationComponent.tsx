@@ -7,7 +7,7 @@ const Location: React.FC<EmptyObject> = () => {
     <span className={styles.selectCity}>
       Select City
       <span className={styles.downIcon}>
-        <i className="fa fa-sort-desc"></i>
+        <i className="fa fa-angle-down"></i>
       </span>
     </span>
   );
