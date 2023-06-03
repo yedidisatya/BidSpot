@@ -1,6 +1,16 @@
 .howItWorks {
   max-width: 1248px;
-  margin: 0 auto !important;
+  margin: 0 auto;
+  margin-top: 90px;
+  .howItWorksTitle {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 30px;
+  }
+  .howItWorksSubTitle {
+    font-size: 20px;
+    font-weight: 400;
+  }
   .howItWorksItems {
     img {
       height: 190px;
@@ -10,10 +20,46 @@
     .HowItsWorkContent {
       .HowItsWorkHeading {
         font-size: 24px;
+        font-size: 24px;
+        margin-bottom: 0;
       }
       .HowItsWorkDetails {
         font-size: 16px;
+        font-size: 16px;
+        width: 75%;
+        margin: 10px auto;
       }
     }
+  }
+  .watchHowItWorksBtn {
+    font-size: 16px;
+    padding: 0 44px 0 52px;
+    background-color: #6300a3;
+    color: #fff;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+      background-color: #561381;
+    }
+  }
+  .HowItsWorkViewBtn,
+  .learnMoreBtn {
+    color: #6300a3;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    i {
+      font-weight: 800;
+      font-size: 15px;
+    }
+    &:hover {
+      border-bottom: solid 2px #6300a3;
+    }
+  }
+  .learnMoreBtn {
+    font-size: 16px;
   }
 }

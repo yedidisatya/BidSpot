@@ -5,7 +5,7 @@ import cn from 'classnames';
 const Category: React.FC<EmptyObject> = () => {
   return (
     <div className={styles.categoryBased}>
-      <div className="row">
+      <div className="row my-5">
         <h2 className={cn(styles.categoryTitle, 'text-middle my-5')}>Shop By Category</h2>
         <div className="row">
           <div className={cn(styles.categoryList, 'd-flex')}>
