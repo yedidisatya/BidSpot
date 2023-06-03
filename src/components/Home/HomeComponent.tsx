@@ -4,6 +4,7 @@ import { Header } from '../Header';
 import { NavigationBar } from '../NavigationBar';
 import { HomePageBanner } from './HomePageBanner';
 import { Category } from './BasedOnCategory';
+import { HowItWorks } from './HowItWorks';
 
 const Home: React.FC<EmptyObject> = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC<EmptyObject> = () => {
       <NavigationBar />
       <HomePageBanner />
       <Category />
+      <HowItWorks />
     </div>
   );
 };
