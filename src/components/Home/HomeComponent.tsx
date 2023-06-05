@@ -6,6 +6,7 @@ import { HomePageBanner } from './HomePageBanner';
 import { Category } from './BasedOnCategory';
 import { BankersTrending } from './BankersTrending';
 import { HowItWorks } from './HowItWorks';
+import { Footer } from '../Footer';
 
 const Home: React.FC<EmptyObject> = () => {
   return (
@@ -16,6 +17,7 @@ const Home: React.FC<EmptyObject> = () => {
       <Category />
       <BankersTrending />
       <HowItWorks />
+      <Footer />
     </div>
   );
 };
