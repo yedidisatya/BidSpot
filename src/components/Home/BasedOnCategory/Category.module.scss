@@ -9,20 +9,28 @@
   }
   .categoryList {
     .categoryItem {
+      cursor: pointer;
       img {
         width: 130px;
+        height: 130px;
         object-fit: cover;
         border-radius: 50%;
         transition: transform 0.2s ease-out;
-        cursor: pointer;
-        &:hover {
+      }
+      .categoryItemTitle {
+        font-weight: 400;
+        margin-top: 10px !important;
+        width: 195px;
+      }
+      &:hover {
+        img {
           transform: scale(1.03);
           box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
         }
-      }
-      .categoryItemTitle {
-        font-weight: 500;
-        margin-top: 10px !important;
+        .categoryItemTitle {
+          color: #2e054e;
+          font-weight: 700;
+        }
       }
     }
   }

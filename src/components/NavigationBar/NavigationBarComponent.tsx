@@ -11,15 +11,15 @@ const NavigationBar: React.FC<EmptyObject> = () => {
             <p>EXPLORE BY</p>
           </div>
           <div className={cn(styles.navItem, 'mx-5 d-flex')}>
-            <p>Price Range</p>
+            <p>Vehicle</p>
             <i className={'fa fa-angle-down'}></i>
           </div>
           <div className={cn(styles.navItem, 'mx-5 d-flex')}>
-            <p>Plot By Area</p>
+            <p>Properties</p>
             <i className={'fa fa-angle-down'}></i>
           </div>
           <div className={cn(styles.navItem, 'mx-5 d-flex')}>
-            <p>Sell the Plot</p>
+            <p>Gold</p>
             <i className={'fa fa-angle-down'}></i>
           </div>
         </div>

@@ -2,17 +2,15 @@ import React from 'react';
 import styles from './HomePageBanner.module.scss';
 import Slider from 'react-slick';
 import cn from 'classnames';
-// import img1 from '../../../images/img1.jpg';
-// import img2 from '../../../images/img2.jpg';
-// import img3 from '../../../images/img3.jpg';
 
 const HomePageBanner: React.FC<EmptyObject> = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500
   };
   return (
     <Slider {...settings}>

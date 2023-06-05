@@ -6,64 +6,43 @@ const Category: React.FC<EmptyObject> = () => {
   return (
     <div className={styles.categoryBased}>
       <div className="row my-5">
-        <h2 className={cn(styles.categoryTitle, 'text-middle my-5')}>Shop By Category</h2>
+        <h2 className={cn(styles.categoryTitle, 'text-middle my-5')}>Search By Category</h2>
         <div className="row">
-          <div className={cn(styles.categoryList, 'd-flex')}>
+          <div className={cn(styles.categoryList, 'd-flex justify-content-center')}>
             <div className={cn(styles.categoryItem, 'mx-3')}>
               <img
-                src="https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/bikes.jpg"
+                src="https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt="Sort Img"
               />
-              <p className={styles.categoryItemTitle}>Bike</p>
+              <p className={styles.categoryItemTitle}>Residential</p>
             </div>
             <div className={cn(styles.categoryItem, 'mx-3')}>
               <img
-                src="https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/cars.jpg"
+                src="https://images.pexels.com/photos/1240435/pexels-photo-1240435.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 alt="Sort Img"
               />
-              <p className={styles.categoryItemTitle}>Car</p>
+              <p className={styles.categoryItemTitle}>Commercial</p>
             </div>
             <div className={cn(styles.categoryItem, 'mx-3')}>
               <img
-                src="	https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/scooters.jpg"
+                src="https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 alt="Sort Img"
               />
-              <p className={styles.categoryItemTitle}>Scooter</p>
+              <p className={styles.categoryItemTitle}>Plot / Land</p>
             </div>
             <div className={cn(styles.categoryItem, 'mx-3')}>
               <img
-                src="https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/electric-cars.jpg"
+                src="https://cdn.pixabay.com/photo/2021/02/02/18/46/city-5974876_640.jpg"
                 alt="Sort Img"
               />
-              <p className={styles.categoryItemTitle}>EV</p>
+              <p className={styles.categoryItemTitle}>Apartment / Flat</p>
             </div>
             <div className={cn(styles.categoryItem, 'mx-3')}>
               <img
-                src="	https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/cycles.jpg"
+                src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt="Sort Img"
               />
-              <p className={styles.categoryItemTitle}>Bicycle</p>
-            </div>
-            <div className={cn(styles.categoryItem, 'mx-3')}>
-              <img
-                src="https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/planes.jpg"
-                alt="Sort Img"
-              />
-              <p className={styles.categoryItemTitle}>Plane</p>
-            </div>
-            <div className={cn(styles.categoryItem, 'mx-3')}>
-              <img
-                src="https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/taxis.jpg"
-                alt="Sort Img"
-              />
-              <p className={styles.categoryItemTitle}>Taxi</p>
-            </div>
-            <div className={cn(styles.categoryItem, 'mx-3')}>
-              <img
-                src="https://cdn1.acedms.com/photos/images/droomresponsive/img/content/homepage-v5/buses.jpg"
-                alt="Sort Img"
-              />
-              <p className={styles.categoryItemTitle}>Bus</p>
+              <p className={styles.categoryItemTitle}>Villa / Independent house</p>
             </div>
           </div>
         </div>
