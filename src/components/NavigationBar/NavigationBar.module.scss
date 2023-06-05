@@ -1,5 +1,7 @@
 .mainNavigation {
-  margin: 12px !important;
+  .navHead {
+    box-shadow: -16px 1px 3px 0px #6300a3;
+  }
   .navItem {
     p {
       font-weight: 400;
@@ -8,7 +10,7 @@
       margin-bottom: 0;
     }
     i {
-      margin: 3px 0 0 8px !important;
+      margin: 3px 0 0 8px;
       font-size: 20px;
       font-weight: 700;
     }

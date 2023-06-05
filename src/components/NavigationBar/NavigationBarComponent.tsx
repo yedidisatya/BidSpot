@@ -6,7 +6,7 @@ const NavigationBar: React.FC<EmptyObject> = () => {
   return (
     <div className={styles.mainNavigation}>
       <div className="row">
-        <div className="d-flex align-items-center justify-content-center">
+        <div className={cn(styles.navHead, 'd-flex align-items-center justify-content-center p-3')}>
           <div className={cn(styles.navItem, 'mx-5 text-muted')}>
             <p>EXPLORE BY</p>
           </div>
