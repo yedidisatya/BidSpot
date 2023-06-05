@@ -1,7 +1,7 @@
 .mainFooter {
   .footerBgImage {
     background-image: url(https://spn-sta.spinny.com/spinny-web/static-images/assets/images/components/Footer/assets/city-line-desktop.svg);
-    background-color: #2e054e;
+    background-color: #6e6e6e;
     background-position: bottom;
     background-repeat: no-repeat;
     display: flex;
@@ -9,6 +9,9 @@
     justify-content: center;
     position: relative;
     width: 100%;
+    .footerBgCont {
+      height: 400px;
+    }
   }
   .footerBlock {
     background-color: #2e054e;

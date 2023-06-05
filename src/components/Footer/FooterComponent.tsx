@@ -5,7 +5,9 @@ import cn from 'classnames';
 const Footer: React.FC<EmptyObject> = () => {
   return (
     <div className={styles.mainFooter}>
-      <div className={styles.footerBgImage}></div>
+      <div className={styles.footerBgImage}>
+        <span className={styles.footerBgCont}></span>
+      </div>
       <div className="">
         <footer className={cn(styles.footerBlock, 'text-center text-lg-start text-white')}>
           <div className="container p-4 pb-0">
