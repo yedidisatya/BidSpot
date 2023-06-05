@@ -13,4 +13,27 @@
       font-weight: 700;
     }
   }
+
+  .searchByCity {
+    .searchByCityTittle {
+      font-weight: 400;
+      text-transform: capitalize;
+      font-size: 30px;
+      margin-bottom: 35px;
+    }
+    .cityItem {
+      cursor: pointer;
+      img {
+        width: 75px;
+      }
+      p {
+        padding: 5px;
+        width: 90px;
+      }
+      &:hover {
+        color: #2e054e;
+        font-weight: 700;
+      }
+    }
+  }
 }
