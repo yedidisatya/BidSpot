@@ -4,6 +4,7 @@ import { Header } from '../Header';
 import { NavigationBar } from '../NavigationBar';
 import { HomePageBanner } from './HomePageBanner';
 import { Category } from './BasedOnCategory';
+import { BankersTrending } from './BankersTrending';
 import { HowItWorks } from './HowItWorks';
 
 const Home: React.FC<EmptyObject> = () => {
@@ -13,6 +14,7 @@ const Home: React.FC<EmptyObject> = () => {
       <NavigationBar />
       <HomePageBanner />
       <Category />
+      <BankersTrending />
       <HowItWorks />
     </div>
   );
