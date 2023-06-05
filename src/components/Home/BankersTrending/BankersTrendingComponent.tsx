@@ -64,7 +64,7 @@ const BankersTrending: React.FC<EmptyObject> = () => {
         </div>
       </div>
       <div className={styles.trendingInMarket}>
-        <div className="row">
+        <div className="row py-5">
           <h2 className={cn(styles.categoryTitle, 'text-middle my-5')}>
             Properties Trending In Market
           </h2>
@@ -75,37 +75,58 @@ const BankersTrending: React.FC<EmptyObject> = () => {
                   src="	https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/desktop_home_page_60e957c08f.png"
                   alt="img1"
                 />
-                <h3>Pune Office Opportunity</h3>
+                <h3 className="my-1">Pune</h3>
+                <p>Location: Hinjewadi, Pune</p>
                 <p>
-                  <i className="fa fa-rupee"></i> 523689
+                  Target IRR: <span className={styles.value}>13%</span>
                 </p>
-                <p>View Details</p>
+                <p>
+                  Rental Yield: <span className={styles.value}>20%</span>
+                </p>
+                <p className={styles.price}>
+                  Asset value: <i className="fa fa-rupee"></i> <span>523689</span>
+                </p>
+                <p className={cn(styles.viewDetails, 'p-2')}>View Details</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className={cn(styles.titleItem, 'row m-2 p-2')}>
                 <img
-                  src="	https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/desktop_home_page_60e957c08f.png"
+                  src="https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/edge_4f82dabe2e.jpg"
                   alt="img1"
                 />
-                <h3>Pune Office Opportunity</h3>
+                <h3 className="my-1">Delhi</h3>
+                <p>Location: Sector 45-B</p>
                 <p>
-                  <i className="fa fa-rupee"></i> 523689
+                  Target IRR: <span className={styles.value}>6%</span>
                 </p>
-                <p>View Details</p>
+                <p>
+                  Rental Yield: <span className={styles.value}>7%</span>
+                </p>
+                <p className={styles.price}>
+                  Asset value: <i className="fa fa-rupee"></i> <span>3214569</span>
+                </p>
+                <p className={cn(styles.viewDetails, 'p-2')}>View Details</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className={cn(styles.titleItem, 'row m-2 p-2')}>
                 <img
-                  src="	https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/desktop_home_page_60e957c08f.png"
+                  src="https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/desktop_carousel_1_2067e24035.jpg"
                   alt="img1"
                 />
-                <h3>Pune Office Opportunity</h3>
+                <h3 className="my-1">Bengaluru </h3>
+                <p>Location: Market Rd, Kengeri</p>
                 <p>
-                  <i className="fa fa-rupee"></i> 523689
+                  Target IRR: <span className={styles.value}>1%</span>
                 </p>
-                <p>View Details</p>
+                <p>
+                  Rental Yield: <span className={styles.value}>35%</span>
+                </p>
+                <p className={styles.price}>
+                  Asset value: <i className="fa fa-rupee"></i> <span>9896574</span>
+                </p>
+                <p className={cn(styles.viewDetails, 'p-2')}>View Details</p>
               </div>
             </div>
           </div>

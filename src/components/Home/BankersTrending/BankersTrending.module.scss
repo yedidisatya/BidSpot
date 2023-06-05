@@ -14,12 +14,45 @@
     margin: 0 auto !important;
     .titles {
       .titleItem {
-        border: solid 1px #ccc;
+        border: solid 2px #ccc;
         border-radius: 5px;
         cursor: pointer;
 
         &:hover {
           border-color: #6300a3;
+
+          img {
+            transform: scale(1.05);
+          }
+        }
+        img {
+          width: 100%;
+          height: 240px;
+          transition: transform 2s ease 0s;
+        }
+
+        .value {
+          font-weight: bold;
+          color: #6300a3;
+        }
+
+        .price {
+          font-size: 18px;
+          i,
+          p,
+          span {
+            font-weight: bold;
+            color: #6300a3;
+          }
+        }
+
+        .viewDetails {
+          font-size: 16px;
+          background-color: #6300a3;
+          color: #fff;
+          border-radius: 6px;
+          align-items: center;
+          cursor: pointer;
         }
       }
     }
