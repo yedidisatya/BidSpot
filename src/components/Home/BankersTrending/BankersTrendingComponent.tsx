@@ -63,6 +63,54 @@ const BankersTrending: React.FC<EmptyObject> = () => {
           </Slider>
         </div>
       </div>
+      <div className={styles.trendingInMarket}>
+        <div className="row">
+          <h2 className={cn(styles.categoryTitle, 'text-middle my-5')}>
+            Properties Trending In Market
+          </h2>
+          <div className={cn(styles.titles, 'row')}>
+            <div className="col-md-4">
+              <div className={cn(styles.titleItem, 'row m-2 p-2')}>
+                <img
+                  src="	https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/desktop_home_page_60e957c08f.png"
+                  alt="img1"
+                />
+                <h3>Pune Office Opportunity</h3>
+                <p>
+                  <i className="fa fa-rupee"></i> 523689
+                </p>
+                <p>View Details</p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className={cn(styles.titleItem, 'row m-2 p-2')}>
+                <img
+                  src="	https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/desktop_home_page_60e957c08f.png"
+                  alt="img1"
+                />
+                <h3>Pune Office Opportunity</h3>
+                <p>
+                  <i className="fa fa-rupee"></i> 523689
+                </p>
+                <p>View Details</p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className={cn(styles.titleItem, 'row m-2 p-2')}>
+                <img
+                  src="	https://strata-prod-strapi-images.s3.ap-south-1.amazonaws.com/desktop_home_page_60e957c08f.png"
+                  alt="img1"
+                />
+                <h3>Pune Office Opportunity</h3>
+                <p>
+                  <i className="fa fa-rupee"></i> 523689
+                </p>
+                <p>View Details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

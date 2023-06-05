@@ -9,4 +9,19 @@
       margin: 0 auto;
     }
   }
+  .trendingInMarket {
+    max-width: 1248px;
+    margin: 0 auto !important;
+    .titles {
+      .titleItem {
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          border-color: #6300a3;
+        }
+      }
+    }
+  }
 }
