@@ -2,13 +2,16 @@
   "name": "bidspot",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://yedidisatya.github.io/BidSpot",
   "scripts": {
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "NODE_ENV=development node scripts/dev.js",
     "start:dev": "webpack serve -c webpack.dev.config.js --mode development",
     "build:prod": "NODE_ENV=production webpack --config webpack.prod.config.js",
-    "build:dev": "yarn clean && webpack --mode development"
+    "build:dev": "yarn clean && webpack --mode development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -23,6 +26,7 @@
     "classnames": "^2.3.2",
     "css-hot-loader": "^1.4.4",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
