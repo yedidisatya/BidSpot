@@ -2,7 +2,7 @@
   "name": "bidspot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yedidisatya.github.io/BidSpot",
+  "homepage": "http://yedidisatya.github.io/BidSpot/public",
   "scripts": {
     "test": "react-scripts test",
     "eject": "react-scripts eject",
