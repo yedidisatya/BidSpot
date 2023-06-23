@@ -1,0 +1,16 @@
+#root {
+  $primaryColor: #6300a3;
+  $secondaryColor: #737373;
+}
+
+.productDetailsPage {
+  margin: 0 auto;
+  max-width: 1248px;
+  min-width: 978px;
+
+  .productDetails {
+    .productTop {
+      color: var($primaryColor);
+    }
+  }
+}

@@ -24,7 +24,7 @@ const NavigationBar: React.FC<EmptyObject> = () => {
           </div>
         </div>
       </div>
-      <div className={styles.searchByCity}>
+      {/* <div className={styles.searchByCity}>
         <div className="row mt-5">
           <div className={styles.searchByCityTittle}>Explore By Location</div>
           <div className="d-flex text-center justify-content-center">
@@ -55,7 +55,7 @@ const NavigationBar: React.FC<EmptyObject> = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
