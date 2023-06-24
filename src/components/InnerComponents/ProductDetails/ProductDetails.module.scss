@@ -1,6 +1,34 @@
-#root {
-  $primaryColor: #6300a3;
-  $secondaryColor: #737373;
+$primaryColor: #6300a3;
+$primaryColorDark: #561381;
+$secondaryColor: #737373;
+
+.primaryBtn {
+  background-color: #6300a3;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #561381;
+  }
+}
+
+.redBtn {
+  background-color: #ed264f;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:hover {
+    background-color: #e6123e;
+  }
 }
 
 .productDetailsPage {
@@ -9,8 +37,60 @@
   min-width: 978px;
 
   .productDetails {
+    border: 1px solid #e8e8e8;
+    padding: 12px 12px 0;
+    border-radius: 12px;
     .productTop {
-      color: var($primaryColor);
+      .productName {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: bold;
+        color: $primaryColorDark;
+      }
+      .productInfo {
+        font-size: 18px;
+        line-height: 22px;
+        color: $primaryColor;
+      }
+      .productInfo2 {
+        font-size: 16px;
+        line-height: 20px;
+        color: $secondaryColor;
+      }
+    }
+    .favtIcon {
+      i {
+        font-size: 28px;
+        color: red;
+      }
+    }
+    .location {
+      color: $secondaryColor;
+      .address {
+        margin-left: 5px;
+      }
+    }
+    .priceInfo {
+      .priceValue {
+        font-size: 24px;
+        line-height: 28px;
+        color: $primaryColorDark;
+        font-weight: bold;
+        .priceValueText {
+          font-size: 12px;
+          font-weight: bold;
+          color: $secondaryColor;
+        }
+      }
+      .priceEMI {
+        font-size: 16px;
+        line-height: 20px;
+        color: $primaryColor;
+      }
+    }
+    .bottomInfo {
+      font-size: 12px;
+      color: $secondaryColor;
     }
   }
 }
