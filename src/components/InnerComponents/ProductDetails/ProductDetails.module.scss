@@ -1,6 +1,7 @@
 $primaryColor: #6300a3;
 $primaryColorDark: #561381;
 $secondaryColor: #737373;
+$secondaryColorDark: #2f2f2f;
 
 .primaryBtn {
   background-color: #6300a3;
@@ -92,5 +93,36 @@ $secondaryColor: #737373;
       font-size: 12px;
       color: $secondaryColor;
     }
+  }
+
+  .blockHeader {
+    color: $primaryColorDark;
+    font-size: 32px;
+  }
+
+  .propertyHighlights {
+    ul {
+      list-style: none;
+      color: $primaryColor;
+      font-size: 18px;
+    }
+  }
+
+  .propertyDetails {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    .propertyTitle {
+      color: $primaryColorDark;
+    }
+    .leftData {
+      color: $secondaryColor;
+    }
+    .rightData {
+      color: $secondaryColorDark;
+      font-weight: 500;
+    }
+  }
+  .propertyLocation {
+    height: 300px;
   }
 }
