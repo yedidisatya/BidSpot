@@ -227,7 +227,7 @@ const ProductDetails: React.FC<EmptyObject> = () => {
         <h3 className={cn(styles.blockHeader, 'text-start')}>Location In Map</h3>
         <div className={styles.propertyLocation}>Map Here</div>
       </div>
-      <div className={cn(styles.section5, 'row my-2')}>
+      <div className={cn(styles.section6, 'row my-2')}>
         <h3 className={cn(styles.blockHeader, 'text-start')}>Similar Property's</h3>
         <div className={cn(styles.propertyLocation, 'row')}>
           <div className="col-md-3">Item 1</div>
